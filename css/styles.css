@@ -53,12 +53,14 @@ p {
 }
 
 .top-cloud {
+  width: 7%;
   position: absolute;
   top: 40px;
   right: 470px;
 }
 
 .bottom-cloud {
+  width: 7%;
   position: absolute;
   left: 250px;
 }
@@ -159,4 +161,8 @@ p {
 
 .footer-link:hover {
   color: #dcd6f7;
+}
+
+.mountain-img {
+  width: 40%;
 }
