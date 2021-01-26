@@ -1,102 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kateryna's Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+  <title>Kateryna Dudko</title>
 </head>
-
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/my_photo.jpg" alt="Kateryna Dudko profile picture" width="200" height="200">
-      </td>
-      <td>
-        <h1>Kateryna Dudko</h1>
-        <p><em>Junior Web Developer</em></p>
-        <p>I am a Junior Web Developer. Looking for a job on this position. I studied
-          at UNIT Factory in Kyiv, Ukraine. Also I have completed <strong>
-            <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">
-              Web Developer Bootcamp</a></strong> on Udemy.com. Check out my <strong>
-            <a href="https://github.com/CatBraddinton">github page</a></strong>.
-        </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>UNIT Factory, Kyiv, Ukraine. 2018 - 2020.</li>
-  </ul>
-  <h3>My Skills</h3>
-  <ol>
-    <li>HTML 5</li>
-    <li>CSS</li>
-    <li>Bootstrap 4</li>
-    <li>JavaScript</li>
-    <li>GitHub</li>
-    <li>Linux Bash</li>
-  </ol>
-  <hr>
-  <h3>My Projects</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Personal Site</td>
-        <td>My First website that I created during taking online course at
-          Udemy.com. It contains information about me, my projects, links to
-          my social networks and github profile.And how to contact me. </td>
-      </tr>
-      <tr>
-        <td>Personal Site</td>
-        <td>My First website that I created during taking online course at
-          Udemy.com. It contains information about me, my projects, links to
-          my social networks and github profile.And how to contact me. </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>HTML 5</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>JavaScript</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>Bootstrap</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-          </tr>
-        </table>
-      </td>
+  <div class="top-container">
+    <img src="images/cloud.png"  class="top-cloud" alt="cloud-image">
+    <h1>I am Kateryna,</h1>
+    <h2><span class="top-h2">a Junior Web Developer</span>.</h2>
+    <img src="images/cloud.png"  class="bottom-cloud"  alt="cloud-image">
+    <img src="images/mountain.png"alt="mountains-image">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-image" src="images/my_photo.png" alt="my-profile-photo">
+      <h2>Hello.</h2>
+      <p class="intro">I am a Junior Web Developer. Looking for a job on this position in Kyiv, Ukraine.
+         I studied at UNIT Factory.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-html" src="images/html-5.png" alt="html5-logo">
+        <h3 class="skill-header">HTML 5</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-css" src="images/css-3.png" alt="css3-logo">
+        <h3 class="skill-header">Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-js" src="images/js.png" alt="js-logo">
+        <h3 class="skill-header">Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-bs" src="images/bootstrap.png" alt="bootstrap-logo">
+        <h3 class="skill-header">Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Looking for a Junior Web Developer?</h3>
+      <p>Here I am. Let's get started.</p>
+      <a class="btn" href="mailto:catherinedudko@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-    </tr>
-  </table>
-  <hr>
-  <h3><a href="contact_me.html">Contact Me</a></h3>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/kateryna-dudko-4bb241163/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/KaterynaDudko">GitHub</a>
+    <a class="footer-link" href="https://https://www.facebook.com/catbraddinton">Facebook</a>
+    <p class="copyright">© 2021 Kateryna Dudko.</p>
+  </div>
+
 </body>
-
 </html>
